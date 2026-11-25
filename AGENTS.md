@@ -4,7 +4,7 @@ Projet : `WT-PROJECT-OSINT-001`
 Continuité : `WT-OSINT-CONTINUITY-20261125-01`
 
 ## Parcours d'arrivée
-1. Lire README.md, AGENTS.md, SUIVI.md et docs/foundations/AUTOMATION.md.
+1. Lire README.md, AGENTS.md, SUIVI.md, DECISIONS.md, docs/foundations/AUTOMATION.md et docs/foundations/LOOPS.md.
 2. Lire l'[issue canonique #1](https://github.com/chainsolutions-wealthtech/osint-wealthtech/issues/1), les décisions et les PR ouvertes ; vérifier la branche, le SHA et les travaux concurrents.
 3. Déterminer objectif, périmètre, dépendances, risques, fichiers et critères d'acceptation.
 4. Ne pas modifier un périmètre détenu par un autre intervenant ; en absence d'un mécanisme de claims certifié, coordonner explicitement et ne pas lancer plusieurs writers autonomes.
