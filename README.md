@@ -58,13 +58,17 @@ Le choix entre un moteur exclusivement financier, un moteur économique et profe
 
 L'initialisation minimale du dépôt est anticipée à la demande du porteur du projet, sans considérer l'étape 11 comme achevée.
 
+## Extensions fondatrices — OSINT-F01
+
+Les 19 étapes restent inchangées. Les sous-étapes de gouvernance, de sécurité et d'automatisation sont détaillées dans [le catalogue des socles](docs/foundations/AUTOMATION.md). Les [instructions de travail](AGENTS.md) et [le point de reprise](SUIVI.md) complètent ce README. Le [chantier canonique #1](https://github.com/chainsolutions-wealthtech/osint-wealthtech/issues/1) suit cette fondation. Le [catalogue des boucles opérationnelles](docs/foundations/LOOPS.md) relie les mécanismes aux parcours ; le [registre des décisions](DECISIONS.md) distingue les choix confirmés des questions ouvertes. Les capacités runtime restent à concevoir, développer et certifier.
+
 ## Continuité — point de reprise courant
 
 - Référence permanente : `WT-OSINT-CONTINUITY-20261125-01`.
 - Étape active : 01 — Constitution du projet.
-- Travail courant : initialisation du README et vérification des capacités de configuration GitHub et de création d'un GitHub Project associé.
+- Travail courant : fondations de gouvernance et d'automatisation OSINT-F01 ; consulter SUIVI.md et l'issue #1 pour le checkpoint.
 - Prochaine décision fonctionnelle : validation du périmètre (décision 01).
 - GitHub Project : association non attestée à ce stade.
-- Aucun développement logiciel, déploiement ou certification n'est déclaré réalisé.
+- Un contrôle documentaire CI est en cours de consolidation sur la PR #2 ; aucun moteur métier, worker permanent, déploiement ou certification runtime n'est déclaré réalisé.
 
 Tout nouvel intervenant doit lire ce README, vérifier l'état réel du dépôt et retrouver la continuité existante avant d'engager des travaux. Ne pas créer de continuité concurrente.
