@@ -32,6 +32,9 @@ Les identités, permissions, secrets et effets des deux plans sont séparés. Au
 | A17 | Reconciliation documentaire et configuration | Drift détecté ; correction attestée ; sources non lues non certifiées |
 | A18 | Interopérabilité, contrats et migrations | Versions compatibles ; tests de contrat ; pas d'autorité concurrente |
 
+## Composition opérationnelle
+Voir [LOOPS.md](LOOPS.md) pour les 18 boucles et leurs dépendances aux socles. Le catalogue A01–A18 reste la référence des capacités ; les boucles ne constituent pas une seconde autorité.
+
 ## Contrat minimal d'une exécution
 Une mission doit porter project_id, continuity_id, task_id, run_id, plan (engineering/intelligence), objectif, périmètre autorisé, identité d'exécution, dépendances, version des politiques, état, budget, échéance, clé d'idempotence, références des entrées, effets et preuves, checkpoint et prochaine action. Les claims/leases/fencing ne seront pas simulés : une autorité durable doit être choisie et testée avant d'autoriser les writers concurrents.
 
